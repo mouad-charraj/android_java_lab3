@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ************************************************************
+    * Interface d'affichage du récapitulatif.
+    * Une création originale de Mouad (Z3R0-XR7).
+    ************************************************************
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_affichage_mouad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AffichageActivityMouad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Titre stylisé par Mouad -->
+        <TextView
+            android:id="@+id/titre_mouad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recapitulatif"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#333333"/>
+
+        <!-- Zone de texte pour les données extraites -->
+        <TextView
+            android:id="@+id/recap_mouad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#444444"/>
+
+        <!-- Navigation retour vers l'accueil -->
+        <Button
+            android:id="@+id/btnRetour_mouad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/retour"
+            android:layout_marginTop="30dp"
+            android:minHeight="48dp"/>
+
+        <!-- Signature officielle Z3R0-XR7 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/signature_mouad"
+            android:textSize="11sp"
+            android:textColor="#999999"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

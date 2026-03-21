@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab3 - Mouad Edition</string>
+    <string name="nom_prenom">Nom &amp; Prénom</string>
+    <string name="hint_nom">Ex : CHARRAJ Mouad</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Ex : ZEROXR7@gmail.com</string>
+    <string name="telephone">Téléphone</string>
+    <string name="hint_phone">Ex : +212676000000</string>
+    <string name="adresse">Adresse</string>
+    <string name="hint_adresse">Ex : Z3R0 W45 H3R3</string>
+    <string name="ville">Ville</string>
+    <string name="hint_ville">Ex : CASABLANCA</string>
+    <string name="envoyer">Envoyer les données</string>
+    <string name="recapitulatif">Récapitulatif des Informations</string>
+    <string name="retour">Retour au Formulaire</string>
+    <string name="signature_mouad">Réalisé par mouad charraj aka Z3R0-XR7</string>
+</resources>
