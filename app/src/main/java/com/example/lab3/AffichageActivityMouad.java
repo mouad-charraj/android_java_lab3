@@ -21,7 +21,7 @@ public class AffichageActivityMouad extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // Liaison avec le layout XML personnalisé
+        // Liaison avec le layout XML
         setContentView(R.layout.activity_affichage_mouad);
 
         // Initialisation des vues par Mouad
