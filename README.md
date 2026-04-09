@@ -12,9 +12,13 @@ Ce projet est le troisième laboratoire pratique du module de développement mob
 L'application propose une interface interactive avec les éléments suivants :
 
 Saisie des Informations Personnelles : Un formulaire permet à l’utilisateur d’entrer son nom, son email, son téléphone, son adresse et sa ville.
+
 Validation des Champs Obligatoires : L’application vérifie que certains champs importants, comme le nom et l’email, sont bien remplis avant de continuer.
+
 Action "Envoyer" : Un bouton permet d’envoyer les données saisies vers une deuxième activité.
+
 Affichage Récapitulatif : Un deuxième écran affiche les informations saisies sous forme de récapitulatif clair.
+
 Navigation entre les Écrans : Un bouton de retour permet de revenir facilement au formulaire principal.
 
 ## Technologies Utilisées
